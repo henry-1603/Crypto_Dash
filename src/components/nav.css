@@ -1,0 +1,40 @@
+ .menu{
+    background-color: var(--lblack)!important;
+    font-weight: bold!important;
+    font-size: 20px!important;
+}
+
+.menu-item:hover{
+    background-image: linear-gradient(124.31deg, #46e3b7 0.18%, #527cac 89.2%)!important;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break:'clone';
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+typography, .ant-typography a {
+    background-image: linear-gradient(285.49deg, rgb(148, 151, 157) -14.61%, rgb(118, 124, 175) 106.06%);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: unset;
+} 
+
+.ant-menu-title-content > a:hover{
+    color: #18191B!important;
+    transition: 0.2s;
+}
+
+.ant-input{
+    border-radius: 5px!important;
+}
+
+.ant-menu-item-selected{
+    background: linear-gradient(124.31deg, rgb(70, 227, 183) 0.18%, rgb(82, 124, 172) 89.2%)!important;
+    .ant-menu-title-content > a{
+        color: black!important;
+    }
+}

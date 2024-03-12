@@ -1,0 +1,41 @@
+.ant-card {
+    background-image: linear-gradient(210deg, #4b494a 14.61%, #262224 106.06%)!important;
+    border-radius: 10px!important;
+    color: #FEFCF9!important;
+    font-weight: bold;
+}
+
+.ant-card-hoverable:hover {
+    background-color: #fff0e1!important;
+    transform: scale(1.04);
+    transition: 0.3s;   
+}
+.ant-card-bordered{
+    border: 1px solid #f0f0f034!important;
+}
+.ant-card-body {
+    /* background: #a9bbff!important; */
+    border-bottom-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+}
+.ant-card-head {
+    /* background: #a9bbff!important; */
+    /* color: aliceblue!important; */
+    background: var(--lblack)!important;
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+}
+
+.ant-card-head-title {
+    /* color: #FEFCF9!important; */
+    background: linear-gradient(285.49deg, rgb(245, 55, 249) -14.61%, rgb(247, 190, 43) 106.06%);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: unset;
+    font-weight: bold;
+    font-size: larger;
+}
